@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to merge two sorted arrays
+
 int* mergeSortedLists(int* list1, int size1, int* list2, int size2, int* mergedSize) {
     int* mergedList = (int*)malloc((size1 + size2) * sizeof(int));
     int i = 0, j = 0, k = 0;
@@ -26,7 +26,7 @@ int* mergeSortedLists(int* list1, int size1, int* list2, int size2, int* mergedS
     return mergedList;
 }
 
-// Main function to test the merge function
+
 int main() {
     int list1[] = {1, 3, 5, 7};
     int list2[] = {2, 4, 6, 8};
